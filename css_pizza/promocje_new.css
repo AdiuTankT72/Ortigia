@@ -421,3 +421,9 @@ table#dodatki td:nth-child(3) {
     padding: 15px;
     border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+    .tab-content ul li {
+        width: 50%;
+    }
+}
