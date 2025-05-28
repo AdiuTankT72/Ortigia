@@ -100,3 +100,12 @@ button:hover, button:focus {
         max-width: 100%;
     }
 }
+
+/* Remove yellow background on hamburger button hover and focus */
+button.hamburger:hover,
+button.hamburger:focus {
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
